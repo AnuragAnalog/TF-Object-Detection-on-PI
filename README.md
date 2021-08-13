@@ -5,7 +5,9 @@ To run the tensorflow lite model on your raspberry pi, do follow the below steps
 ## Hardware Requirements
 
 * Raspberry Pi
-* Pi Camera Module
+* PI Camera Module
+
+![PI with camera](./pi-with-camera.jpg)
 
 ## Clone
 
@@ -42,7 +44,7 @@ unzip coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip -d model
 
 I have written two varaints of the program, one which takes input from your wecam feed and the other which takes input from a video file.
 
-> For video.py I have added a sample [video file](indiavideo.org)
+> For video.py I have added a sample [video file](https://www.indiavideo.org/)
 
 ## Run the program
 
@@ -57,6 +59,10 @@ To run the video version
 ```bash
 ./video.py --model_dir=model
 ```
+
+## Demo
+
+![This is how I look :P](./preview.png)
 
 ## TODO List
 
