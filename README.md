@@ -26,6 +26,18 @@ Run the download.sh file to download all the required packages which are necessa
 
 > If you want to install tensorflow instead of tflite_runtime, you can comment the last four lines in the script.
 
+## Download the TensorFlow Lite Pre-trained model
+
+```bash
+wget https://storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
+```
+
+After downloading the model, you need to unzip it, use the below command for that to unzip and store it in a directory called model
+
+```bash
+unzip coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip -d model
+```
+
 ## TODO List
 
 - [x] Object Detection on Webcam

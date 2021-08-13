@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Get packages required for OpenCV
+sudo apt install libilmbase-dev libopenexr-dev libgstreamer1.0-dev -y
 sudo apt install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev -y
 sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y
 sudo apt install libxvidcore-dev libx264-dev -y
 sudo apt install qt4-dev-tools libatlas-base-dev -y
-sudo apt install libilmbase-dev libopenexr-dev libgstreamer1.0-dev -y
 
-# Need to get an older version of OpenCV because version 4 has errors
+# Install Opencv
 pip3 install opencv-python
 
 # Get packages required for TensorFlow
