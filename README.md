@@ -7,7 +7,7 @@ To run the tensorflow lite model on your raspberry pi, do follow the below steps
 * Raspberry Pi
 * PI Camera Module
 
-![PI with camera](./pi-with-camera.jpg)
+![PI with camera](./images/pi-with-camera.jpg)
 
 ## Clone
 
@@ -62,7 +62,7 @@ To run the video version
 
 ## Demo
 
-![This is how I look :P](./preview.png)
+![This is how I look :P](./images/preview.png)
 
 ## TODO List
 
