@@ -71,3 +71,7 @@ To run the video version
 - [ ] Object Detection on Image
 - [ ] Add more links to pre-trained models
 - [ ] Object Detection using Custom models
+
+## Problems
+
+I have took atmost care in making this hassle free, but still if you face any issues, feel free to create issues.
